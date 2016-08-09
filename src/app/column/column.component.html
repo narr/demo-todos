@@ -1,8 +1,0 @@
-<div class="header">
-  <span class="title">{{setTitle(title)}}</span>
-  <narr-total-count-box></narr-total-count-box>
-</div>
-<!-- for sync, need to set dragulaModel -->
-<div class="todos" [dragula]="'bag-column'" [dragulaModel]="data">
-  <div class="todo" *ngFor="let val of data;">{{val}}</div>
-</div>
