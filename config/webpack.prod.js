@@ -7,7 +7,7 @@ const WebpackMd5Hash = require('webpack-md5-hash');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const IS_FOR_GITHUB_PAGE = helpers.hasProcessFlag('-my-ghp');
-const BASE_URL = IS_FOR_GITHUB_PAGE ? '/narr/' : '/';
+const BASE_URL = IS_FOR_GITHUB_PAGE ? '/demo-todos/' : '/';
 const ROOT_PATH = helpers.root('src');
 const INDEX_SCSS_PATH = helpers.root('src/index.scss');
 const ENTRY_ORDER = ['polyfills', 'vendor', 'main'];
