@@ -1,0 +1,27 @@
+:host {
+  float: left;
+  margin-left: 100px;
+  width: 400px;
+  .header {
+    position: relative;
+    background: #444;
+    padding: 30px 15px;
+    font-size: 24px;
+    color: #fff;
+  }
+  .todos {
+    min-height: 100px;
+  }
+  .todo {
+    background: #fff;
+    margin: 2px 0 0 0;
+    padding: 30px 15px;
+    font-size: 18px;
+    line-height: 1.8;
+    transition: opacity 0.4s ease-in-out;
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+  }
+}

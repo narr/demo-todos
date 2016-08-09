@@ -1,0 +1,17 @@
+<img class="narr" [src]="narr" alt="Narr Icon" width="40" height="40">
+
+<div class="create">
+  <label for="make">add project</label>
+  <input type="text" id="make" (keypress)="onKeypress($event)">
+</div>
+
+<div class="total">
+  <span>TOTAL</span>
+  <narr-total-count-box #total></narr-total-count-box>
+</div>
+
+<section class="columns clearfix">
+  <narr-column class="todo" [title]="'todo'" [data]="initTodos" #todo></narr-column>
+  <narr-column class="progress" [title]="'progress'" [data]="initProgress"></narr-column>
+  <narr-column class="done" [title]="'done'" [data]="initDone"></narr-column>
+</section>

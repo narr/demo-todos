@@ -1,0 +1,51 @@
+body,
+h1,
+h2,
+h3,
+h4,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  line-height: normal;
+  font-family: Tahoma;
+  font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html.touch {
+  overflow-x: hidden;
+}
+
+body {
+  background: #888;
+}
+
+@import './dragula.scss';
+
+.gu-mirror {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 30px 15px;
+  transition: opacity 0.4s ease-in-out;
+  font-size: 18px;
+  line-height: 1.8;
+  box-sizing: border-box;
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
